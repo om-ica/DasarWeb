@@ -20,6 +20,7 @@ h2 {
 }
 
 body {
-    background: lightcyan;
+    background: url("../Pekan1/img/tree2.jpg"), url("../Pekan1/img/field3.jpeg");
+    background-repeat: no-repeat, repeat;
     color: white;
 }
