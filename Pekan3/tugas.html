@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas JavaScript</title>
+</head>
+<body>
+    <form method="post">
+        <input type="text" id="first" name="var1" placeholder="first name">
+        <input type="text" id="last" name="var2" placeholder="last name">
+        <br><br>
+        <input type="button" value="Kirim" onclick="validasi()">
+        <script>
+            function validasi() {
+                var first = document.getElementById("first").value;
+                var last = document.getElementById("last").value;    
+
+                if (first === "" || last ==="") {
+                    alert("Nama tidak boleh kosong")
+                } else {
+                    document.write("<h2>Selamat datang</h2>")
+                }
+            }
+            
+        </script>
+    </form>
+</body>
+</html>
